@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Ao Vivo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="h1">Chat</div>
+
+        <form>
+     
+            <div class="form-group">
+              <label for="messageClient">Envie sua mensagem</label>
+              <input type="text" class="form-control" id="messageClient" placeholder="Messagem aqui">
+            </div>
+           
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.4.0/socket.io.js"></script>
+
+<script src="js/app.js"></script>
+
+</html>
